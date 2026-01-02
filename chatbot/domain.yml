@@ -1,4 +1,4 @@
-version: "3.1"
+version: "3.0"
 
 intents:
   - greet
@@ -7,7 +7,13 @@ intents:
   - deny
   - mood_great
   - mood_unhappy
+  - ask_product_info
   - bot_challenge
+  
+
+
+actions:
+  - action_get_product_info
 
 responses:
   utter_greet:
