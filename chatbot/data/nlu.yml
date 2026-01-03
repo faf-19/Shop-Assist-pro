@@ -92,10 +92,59 @@ nlu:
     
 - intent: ask_product_info
   examples: |
+    # Product availability
     - Do you have wireless headphones?
-    - Tell me about iPhone cases
-    - What smartwatches do you sell?
-    - Show me fast chargers
-    - Are there any Sony headphones?
-    - Info on noise-cancelling headphones
-    - Do you carry laptop bags?
+    - Are there any phone chargers available?
+    - Is this in stock?
+    - Do you sell laptops?
+    - Can I get a smartwatch?
+    - Do you carry iPhone cases?
+    - Are wireless earbuds available?
+
+    # General product inquiries
+    - What products do you have?
+    - What do you sell?
+    - Show me your catalog
+    - What items are available?
+    - Can you list your products?
+    - What's in your store?
+    - What can I buy here?
+
+    # Brand-specific
+    - Do you have Sony headphones?
+    - Are there Apple chargers?
+    - Do you sell Samsung smartwatches?
+    - Any Bose headphones?
+
+    # Feature-based
+    - Do you have noise-cancelling headphones?
+    - Fast phone chargers?
+    - Waterproof smartwatches?
+    - Lightweight laptops?
+
+    # Casual/natural language
+    - Got any good headphones?
+    - What kinda chargers you got?
+    - Show me some cool watches
+    - Any laptops under $1000?
+    - Recommend a wireless headset
+    - What's popular in headphones?
+    - Got anything for iPhone?
+    - Need a new charger — you got any?
+
+    # Typos & shorthand (real users!)
+    - do u have wireless headphone?
+    - wat products u sell?
+    - show me ur products
+    - got any chargers?
+    - can i get a headset?
+    
+- intent: ask_details
+  examples: |
+    - tell me more about it
+    - can i know detail about it?
+    - more info please
+    - what about that product?
+    - elaborate on that
+    - i want details
+    - can you tell me more?

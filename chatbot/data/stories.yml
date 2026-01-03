@@ -34,3 +34,13 @@ stories:
   - action: utter_greet
   - intent: ask_product_info
   - action: action_get_product_info
+- story: follow up on product
+  steps:
+  - intent: ask_product_info
+  - action: action_get_product_info
+  - intent: ask_details
+  - action: action_get_last_product_details
+- story: fallback greet
+  steps:
+  - intent: greet
+  - action: utter_greet
